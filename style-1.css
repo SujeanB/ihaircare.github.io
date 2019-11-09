@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    color: #222;
+  }
+  
+  .navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    padding: .8rem;
+    background: rgba(255, 255, 255, 0.9)!important;
+  }
+
+  .navbar-nav > .active > a {
+    color:orange;    
+  }
+  .nav-item > a:hover {
+    color:black;
+  }
+  
+  .navbar-brand img{
+    height: 3rem;
+  }
+  
+  .navbar-nav li{
+    padding-right: .7rem;
+  }
+  
+  .navbar-light .navbar-nav .nav-link{
+    color: black;
+    padding-top: .8rem;
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover{
+    color: orange;
+    padding-top: .8rem;
+  }
+  
+  .nav-link{
+    font-size: 1.1em !important;
+  }
+
+  .dropdown-item:hover{
+      color: orange;
+  }
+
+  .btn{
+      color: black;
+      border: 1px solid orange;
+  }
+
+  .btn:hover{
+      background-color: orange;
+      border: 1px solid orange;
+  }
+
+  .col-12{
+    text-align: center;
+  }
+
+  .team-row{
+      transform: translateX(110px);
+  }
+
+  footer{
+    background-color: #222;
+    color: white;
+    padding: .8rem;
+  }
+
+  footer hr{ 
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid rgb(252, 252, 252);
+    margin: 1em 0; 
+    padding: 0; 
+  }
